@@ -36,11 +36,16 @@
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
         }
-       .yellow {
-        background-color: aquamarine;
-            color: yellow;
+      .hell, .yellow {
+        background-color: rgb(232, 5, 5);
+            color: rgb(182, 182, 137);
             font-size: 30px;
 
+        }
+
+        input[type="text"] {
+           font-size: 30px;
+           color: blueviolet;
         }
 
     </style>
@@ -50,7 +55,7 @@
 </h1>
 <h4 style="background-color: rgb(108, 136, 136);">Multilple css</h4>
 <p id="p_1">css has many things.They are: </p>
-<p>css has many things.They are: </p>
+<p class="hell">css has many things.They are: </p>
 <p>css has many things.They are: </p>
 <ul class="ul">
     <li>
@@ -65,5 +70,9 @@
     
 </ul>
  <p class="bold yellow">This is a paragraph </p>
+ <form action="input ">
+    <input type="text" placeholder="Enter your name" style="width: 50%; height: 30px; font-size: 20px; border-radius: 5px; border: 1px solid black;">
+    <input type="password" placeholder="Enter your password" style="width: 50%; height: 30px; font-size: 20px; border-radius: 5px; border: 1px solid black;">
+ </form>
 </body>
 </html>
